@@ -1,12 +1,12 @@
 # 🧪 Pandas Program: Join Two DataFrames Along Rows
 
-## 🎯 AIM
+## 🎯 AIM:
 
 To write a Python program using Pandas to **join two DataFrames along rows** (row-wise concatenation) and assign all data to a new DataFrame.
 
 ---
 
-## 🧠 ALGORITHM
+## 🧠 ALGORITHM:
 
 1. **Import Libraries**: Import the `pandas` library.
 2. **Create First DataFrame**: Use a dictionary to create `student_data1`.
@@ -16,10 +16,27 @@ To write a Python program using Pandas to **join two DataFrames along rows** (ro
 
 ---
 
-## 💻 Program
+## 💻 Program:
 
-Add code here
+```
+import pandas as pd
+a=eval(input())
+b=eval(input())
+df1=pd.DataFrame(a)
+df2=pd.DataFrame(b)
+print("Original DataFrames:")
+print(df1)
+print("-------------------------------------")
+print(df2)
+print()
+mer=pd.concat([df1,df2])
+print("Join the said two dataframes along rows:")
+print(mer)
+```
 
-## Output
+## Output:
 
-## Result
+<img width="840" height="543" alt="image" src="https://github.com/user-attachments/assets/30e81731-2ac2-4211-8db1-7fbe859944f6" />
+
+## Result:
+Thus the python program for sorting each column in numpy has been implemented and executed successfully.
